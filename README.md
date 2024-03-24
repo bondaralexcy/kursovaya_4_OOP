@@ -24,11 +24,14 @@ python3 -m venv venv
 ```
 - Активировать виртуальное окружение
 ```
-source venv/Scripts/activate
+source venv/bin/activate
 ```
 - Установить при необходимости модуль requests
 ```
 pip3 install requests
+```
+
+
 ## Работу выполнил:
 ```
 Алексей Бондаренко
