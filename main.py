@@ -63,7 +63,7 @@ def user_interactions():
         top_vacancies = get_top_vacancies(ranged_vacancies, top_n)
         # Вывод на консоль
         for idx, vacancy in enumerate(top_vacancies, start=1):
-            print(f"{idx}. {vacancy}\n")
+            print(f"\n{idx}. {vacancy}")
 
     # Завершение работы с вакансиями
     res = input("Продолжить работу (Y/N)?")
